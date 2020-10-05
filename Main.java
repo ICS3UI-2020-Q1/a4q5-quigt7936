@@ -15,7 +15,7 @@ public class Main {
 
     // tell them the sequence is starting
     System.out.println("Hailstone sequence is the following:");
-    
+
     // create a loop that ends when n = 1
     do {
       // tell them the number were on
@@ -31,6 +31,7 @@ public class Main {
         theNumber = theNumber * 3 + 1;
       }
     } while (theNumber != 1);
-    
+    // print 1 as the last number
+    System.out.println("1");
   }
 }
