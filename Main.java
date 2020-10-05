@@ -13,6 +13,9 @@ public class Main {
     // declare the even and odd deciding variable, if evenOdd = 0 then the number is even and if the evenOdd = 1 then the number is odd
     int evenOdd;
 
+    // tell them the sequence is starting
+    System.out.println("Hailstone sequence is the following:");
+    
     // create a loop that ends when n = 1
     do {
       // tell them the number were on
@@ -20,7 +23,7 @@ public class Main {
 
       // give the evenOdd variable value based on the new number
       evenOdd = theNumber % 2;
-      
+
       // see if the number is even or odd, then do what the patterns tells us to do.
       if (evenOdd == 0) {
         theNumber = theNumber / 2;
